@@ -17,8 +17,3 @@ cca.fit(X, Y)
 CCA(copy=True, max_iter=500, n_components=1, scale=True, tol=1e-06)
 
 X_c, Y_c = cca.transform(X, Y)
-
-iris = datasets.load_iris()
-digits = datasets.load_digits()
-
-print(digits.data)

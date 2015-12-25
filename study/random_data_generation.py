@@ -40,3 +40,5 @@ T2_NOTEST_VECTOR = numpy.reshape(T2_NOTES, (5,1))
 
 lesson_one = numpy.vstack((V1_NOTES,F1_NOTES,T1_NOTES)).T
 lesson_two = numpy.vstack((V2_NOTES,F2_NOTES,T2_NOTES)).T
+
+print lesson_one
